@@ -1,17 +1,11 @@
 $(document).ready(function () {
 
-    var foodBly = ["Beans", "Lentils Peas", "soya", "plantains", "cassava",
-        "mango", "orangs", "grapes", "Wheat", "barley", "bulgur", "oatmeal",
-         "rye", "walnuts", "almonds", "pumpkin", "flax", "sesame", "quinoa", "plum",
+    var animals = [
+        "dog", "cat", "rabbit", "hamster", "skunk", "goldfish",
+        "bird", "ferret", "turtle", "sugar glider", "chinchilla",
+        "hedgehog", "hermit crab", "gerbil", "pygmy goat", "chicken",
+        "capybara", "teacup pig", "serval", "salamander", "frog"
     ];
-
-
-
-
-
-
-
-
 
 
     function populateButtons(arrayToUse, classToAdd, areaToAddTo) {
